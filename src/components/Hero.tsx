@@ -19,20 +19,33 @@ export default function Hero() {
         technologies.
       </p>
 
-      <div className="mt-10 flex gap-4">
+      <div className="mt-10 flex flex-col items-center gap-4">
+        {/* Primary Button */}
         <a
           href="#projects"
-          className="rounded-lg bg-black px-6 py-3 text-white transition hover:scale-105"
+          className="rounded-xl bg-black px-10 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-xl"
         >
           View Projects
         </a>
 
-        <a
-          href="#contact"
-          className="rounded-lg border px-6 py-3 transition hover:bg-gray-100"
-        >
-          Contact Me
-        </a>
+        {/* Secondary Buttons */}
+        <div className="flex gap-4">
+          <a
+            href="#contact"
+            className="rounded-xl border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:text-blue-600 hover:shadow-md"
+          >
+            Contact Me
+          </a>
+
+          <a
+            href="/Travis_Erwin_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:text-blue-600 hover:shadow-md"
+          >
+            📄 Resumé
+          </a>
+        </div>
       </div>
     </section>
   );
