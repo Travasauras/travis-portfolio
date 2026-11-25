@@ -9,8 +9,8 @@ export default function Skills() {
         </h2>
 
         <p className="mx-auto mb-12 max-w-3xl text-center text-gray-600">
-          Technologies and concepts I've developed through coursework,
-          personal projects, and continuous learning.
+          Technologies and practices I use in web and mobile development,
+          game development, and machine learning projects.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2">

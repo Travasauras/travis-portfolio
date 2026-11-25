@@ -1,106 +1,34 @@
-export const journey = [
+﻿export const journey = [
   {
-    year: "2005–2010",
-    title: "Pizza Hut",
-    role: "Delivery Driver → Shift Manager",
+    year: "Aug 2026 – Present",
+    title: "What’s The Move",
+    role: "Full-Stack Web and iOS Developer",
     description:
-      "Started as a delivery driver and was promoted into management. Led employees, handled cash management, coordinated store procedures, managed truck orders, supported delivery logistics, and completed sales forecasting.",
-    skills: [
-      "Team Leadership",
-      "Cash Management",
-      "Sales Forecasting",
-      "Store Operations",
-    ],
+      "Built and deployed an event ticketing system with Stripe payments, vendor management, and customer checkout. Migrated a WordPress site to a full-stack application on AWS. Added features and fixed bugs in the existing iOS app, collaborating through GitHub pull requests.",
+    skills: ["Swift", "Xcode", "TypeScript", "Supabase", "Stripe", "AWS"],
   },
   {
-    year: "2006–2009",
-    title: "Logistics and Delivery",
-    role: "Kansas Blueprint and FedEx",
+    year: "May 2020 – Present",
+    title: "Uber, Spark, and Amazon Flex",
+    role: "Delivery Driver",
     description:
-      "Managed time-sensitive deliveries, planned efficient routes, maintained schedules, and worked independently while providing reliable service to commercial and residential customers.",
-    skills: [
-      "Route Planning",
-      "Time Management",
-      "Logistics",
-      "Customer Service",
-    ],
+      "Coordinate time-sensitive deliveries across three platforms, planning routes and managing schedules to meet delivery windows.",
+    skills: ["Route Planning", "Scheduling", "Delivery Logistics"],
   },
   {
-    year: "2010",
-    title: "Four State Industrial Supply",
-    role: "Warehouse Manager",
+    year: "Oct 2012 – Mar 2020",
+    title: "The Hungry Heart",
+    role: "Bar Manager",
     description:
-      "Managed inventory, shipping and receiving, order preparation, warehouse organization, and local delivery operations until the company downsized.",
-    skills: [
-      "Inventory Management",
-      "Shipping and Receiving",
-      "Order Fulfillment",
-      "Warehouse Operations",
-    ],
+      "Managed daily bar operations, inventory, scheduling, and training in a high-volume environment. Supervised staff and maintained service standards.",
+    skills: ["Team Leadership", "Inventory Control", "Scheduling", "Training"],
   },
   {
-    year: "2009–2016",
-    title: "Hospitality Leadership",
-    role: "Outback Steakhouse and Hungry Heart Pub",
+    year: "Feb 2007 – Aug 2012",
+    title: "FedEx Ground",
+    role: "Delivery Driver",
     description:
-      "Progressed from server and bartender into bar management. Led staff, maintained inventory, handled financial responsibilities, supported daily operations, and helped create an engaging customer experience at a newly opened downtown Wichita restaurant.",
-    skills: [
-      "Staff Leadership",
-      "Daily Operations",
-      "Inventory Control",
-      "Customer Experience",
-    ],
-  },
-  {
-    year: "2016",
-    title: "Speer Family Mortuary",
-    role: "Mortician's Assistant",
-    description:
-      "Transported deceased individuals between residences, hospitals, mortuaries, and organ donation facilities. Followed sensitive procedures while maintaining professionalism, discretion, and attention to detail.",
-    skills: [
-      "Professionalism",
-      "Procedure Compliance",
-      "Attention to Detail",
-      "Sensitive Communication",
-    ],
-  },
-  {
-    year: "2017–2020",
-    title: "Walnut River Brewing Company",
-    role: "Production, Warehouse, Delivery, and Taproom Support",
-    description:
-      "Supported brewery production through canning, kegging, cleaning, shipping, receiving, order preparation, warehouse work, deliveries, and bartending at the downtown Wichita taproom.",
-    skills: [
-      "Production Operations",
-      "Quality Control",
-      "Shipping and Receiving",
-      "Cross-Functional Work",
-    ],
-  },
-  {
-    year: "2020–Present",
-    title: "Independent Contractor",
-    role: "Uber, Amazon Flex, and Walmart Spark",
-    description:
-      "Manage scheduling, route planning, customer service, delivery logistics, expenses, and daily workload as an independent contractor while completing my computer science degree.",
-    skills: [
-      "Self-Management",
-      "Route Optimization",
-      "Customer Service",
-      "Business Operations",
-    ],
-  },
-  {
-    year: "2025–2026",
-    title: "Southern New Hampshire University",
-    role: "Bachelor of Science in Computer Science",
-    description:
-      "Enrolled in January 2025 and expected to graduate in December 2026 with a 4.0 GPA. Coursework includes software engineering, data structures, databases, Android development, computer graphics, software security, and game development.",
-    skills: [
-      "Software Engineering",
-      "Data Structures",
-      "Application Development",
-      "Problem Solving",
-    ],
+      "Planned efficient routes and delivered packages on time across assigned territories.",
+    skills: ["Route Planning", "Time Management", "Delivery Logistics"],
   },
 ];

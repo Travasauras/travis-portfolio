@@ -101,14 +101,8 @@ export default function Timeline() {
     <section id="journey" className="overflow-hidden py-20">
       <div className="mx-auto max-w-5xl px-6">
         <h2 className="mb-4 text-center text-4xl font-bold text-gray-900">
-          Career Journey
+          Work Experience
         </h2>
-
-        <p className="mx-auto mb-10 max-w-3xl text-center leading-relaxed text-gray-600">
-          Each chapter of my career has strengthened skills that I now bring to
-          software engineering, including leadership, logistics, operations,
-          communication, problem solving, and continuous learning.
-        </p>
 
         <p className="mb-4 text-center text-sm text-gray-500">
           Scroll over the cards, use the arrow keys, or select a button
@@ -123,7 +117,7 @@ export default function Timeline() {
             perspective: "1200px",
             overscrollBehavior: "contain",
           }}
-          aria-label="Career journey carousel"
+          aria-label="Work experience carousel"
         >
           {journey.map((item, index) => {
             const position = getPosition(index);
@@ -154,7 +148,7 @@ export default function Timeline() {
               <article
                 key={`${item.title}-${item.year}`}
                 aria-hidden={position !== 0}
-                className={`absolute left-4 right-4 top-1/2 rounded-2xl border border-gray-200 bg-white p-8 shadow-xl transition-all duration-500 ${
+                className={`absolute left-4 right-4 top-1/2 rounded-2xl border border-gray-200 bg-white p-5 shadow-xl transition-all duration-500 sm:p-8 ${
                   position === 0
                     ? "pointer-events-auto"
                     : "pointer-events-none"

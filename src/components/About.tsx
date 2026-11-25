@@ -4,17 +4,18 @@ export default function About() {
       <h2 className="text-3xl font-bold">About Me</h2>
 
       <p className="mt-6 text-lg leading-8 text-gray-600">
-        I&apos;m a computer science student and aspiring software engineer with
-        experience building applications in Java, C++, Python, Android, and
-        Unreal Engine. I enjoy solving technical problems, learning new
-        technologies, and creating software that is useful, reliable, and easy
-        to understand.
+        I&apos;m a new computer science graduate with professional experience
+        in full-stack web and iOS development. I earned my bachelor&apos;s
+        degree in two years with a 4.0 GPA.
       </p>
 
       <p className="mt-4 text-lg leading-8 text-gray-600">
-        I&apos;m currently expanding my full-stack development skills with
-        React, TypeScript, Next.js, PostgreSQL, and modern web development
-        practices.
+        Over the past two years, I&apos;ve developed proficiency in full-stack
+        web development, iOS and Android development, game development, and
+        machine learning. At What’s The Move, I migrated a WordPress website
+        to a full-stack web application deployed on AWS, built an event
+        ticketing system with Stripe, and contributed to an existing iOS app
+        in Swift. I also built a native Android strategy game in C++.
       </p>
     </section>
   );

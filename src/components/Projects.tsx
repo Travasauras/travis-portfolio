@@ -13,6 +13,10 @@ export default function Projects() {
             title={project.title}
             description={project.description}
             technologies={project.technologies}
+            screenshots={project.screenshots}
+            githubUrl={project.githubUrl}
+            websiteUrl={project.websiteUrl}
+            appStoreUrl={project.appStoreUrl}
           />
         ))}
       </div>

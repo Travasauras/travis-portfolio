@@ -19,7 +19,7 @@ export default function Contact() {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="mailto:Travis.Erwin@snhu.edu"
+              href="mailto:travis.erwin87@gmail.com"
               className="rounded-xl bg-black px-7 py-3 font-semibold text-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-lg"
             >
               Send Me an Email
