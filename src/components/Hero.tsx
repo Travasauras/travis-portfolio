@@ -1,10 +1,6 @@
 export default function Hero() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
-      <p className="mb-4 text-lg font-medium text-blue-600">
-        Hello, I&apos;m
-      </p>
-
       <h1 className="text-6xl font-extrabold tracking-tight">
         Travis Erwin
       </h1>
